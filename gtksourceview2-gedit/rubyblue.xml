@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ Copyright (C) 2008 Erik Dahlstrand
+ Author: Erik Dahlstrand <erik.dahlstrand@gmail.com>
+
+ This is a port of the Ruby Blue Theme by John W. Long.
+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the
+ Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ Boston, MA 02111-1307, USA.
+
+-->
+<style-scheme id="rubyblue" _name="Ruby Blue" version="1.0">
+  <author>Erik Dahlstrand</author>
+  <_description>Ruby Blue color scheme</_description>
+
+  <!-- Palette -->
+  <color name="white"                   value="#FFFFFF" />
+  <color name="gainsboro"               value="#E3E2E1" />
+  <color name="dark-grey"               value="#AAAAAB" />
+  <color name="black"                   value="#000000" />
+  <color name="red"                     value="#FF0000" />
+  <color name="yellow"                  value="#EDDD3D" />
+  <color name="yellow-green"            value="#6DB04E" />
+  <color name="lime-green"              value="#1DC116" />
+  <color name="olive"                   value="#968C44" />
+  <color name="orange"                  value="#F8BB00" />
+  <color name="indian-red"              value="#CA4344" />
+  <color name="maroon"                  value="#7A3942" />
+  <color name="midnight-blue"           value="#121E31" />
+  <color name="steel-blue"              value="#253E5A" />
+  <color name="deep-sky-blue"           value="#38566F" />
+  <color name="sky-blue"                value="#428BDD" />
+  <color name="powder-blue"             value="#8AA6C1" />
+
+  <!-- Global Settings -->
+  <style name="current-line"            background="steel-blue" />
+  <style name="cursor"                  foreground="white" />
+  <style name="line-numbers"            foreground="dark-grey" background="black" />
+  <style name="right-margin"            foreground="white" background="black" />
+  <style name="selection"               foreground="white" background="deep-sky-blue" />
+  <style name="text"                    foreground="white" background="midnight-blue" />
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"           foreground="midnight-blue" background="dark-grey" />
+  <style name="bracket-mismatch"        foreground="white" background="red" />
+
+  <!-- Search Matching -->
+  <style name="search-match"            foreground="midnight-blue" background="yellow"/>  
+
+  <!-- Comments -->
+  <style name="def:comment"             foreground="sky-blue" italic="true" />
+  <style name="def:shebang"             use-style="def:comment" />
+  <style name="def:doc-comment"         use-style="def:comment" />
+  <style name="def:doc-comment-element" use-style="def:comment" />
+
+  <!-- Constants -->
+  <style name="def:constant"            foreground="powder-blue" />
+  <style name="def:number"              foreground="yellow" />
+  <style name="def:special-char"        foreground="yellow" />
+  <style name="def:string"              foreground="lime-green" />
+  <style name="def:boolean"             foreground="powder-blue" />
+
+  <!-- Identifiers -->
+  <style name="def:identifier"          foreground="orange" />
+
+  <!-- Statements -->
+  <style name="def:statement"           foreground="orange" bold="false" />
+
+  <!-- Types -->
+  <style name="def:type"                foreground="powder-blue" />
+
+  <!-- Others -->
+  <style name="def:preprocessor"        foreground="orange" />
+  <style name="def:error"               foreground="white" background="red" />
+  <style name="def:note"                foreground="steel-blue" background="yellow" bold="true" />
+  <style name="def:underlined"          underline="true" />
+
+  <!-- Language specific styles -->
+  <style name="diff:added-line"         line-background="yellow-green" foreground="white" />
+  <style name="diff:removed-line"       line-background="maroon" foreground="white" />
+  <style name="diff:changed-line"       line-background="olive" foreground="white" />
+  <style name="diff:location"           foreground="red" />
+  <style name="diff:diff-file"          foreground="yellow" italic="true" />
+  <style name="diff:special-case"       foreground="sky-blue" italic="true" />
+
+  <style name="xml:tags"                foreground="orange" />
+  <style name="xml:attribute-name"      foreground="white" />
+  <style name="xml:namespace"           foreground="lime-green" bold="true" />
+
+  <style name="js:object"               foreground="white" bold="true" />
+  <style name="js:constructors"         foreground="orange" />
+
+  <style name="latex:display-math"      foreground="indian-red" />
+  <style name="latex:command"           foreground="orange" bold="true" />
+  <style name="latex:include"           use-style="def:preprocessor" />
+
+  <style name="sh:variable"             foreground="powder-blue" />
+
+  <style name="boo:keyword"             foreground="orange" />
+  <style name="boo:regex"               foreground="indian-red" />
+
+  <!-- legacy styles for old lang files -->
+  <style name="Others"                  foreground="lime-green" bold="true" />
+  <style name="Others 2"                foreground="powder-blue" />
+  <style name="Others 3"                foreground="deep-sky-blue" />
+
+</style-scheme>

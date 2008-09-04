@@ -1,0 +1,111 @@
+<!-- RubyBlueStyle.xml
+
+ Author:
+   Erik Dahlstrand <erik.dahlstrand@gmail.com>
+
+ Copyright (c) 2008 Erik Dahlstrand
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE. -->
+ <EditorStyle name="Ruby Blue" _description="Dark color scheme using Ruby Blue colors.">
+ 
+	<!-- Palette -->
+	<Color name="white"							value="#FFFFFF" />
+	<Color name="gainsboro"						value="#E3E2E1" />
+	<Color name="dark-grey"						value="#AAAAAB" />
+	<Color name="black"							value="#000000" />
+	<Color name="red"							value="#FF0000" />
+	<Color name="yellow"						value="#EDDD3D" />
+	<Color name="yellow-green"					value="#6DB04E" />
+	<Color name="lime-green"					value="#1DC116" />
+	<Color name="olive"							value="#968C44" />
+	<Color name="orange"						value="#F8BB00" />
+	<Color name="indian-red"					value="#CA4344" />
+	<Color name="maroon"						value="#7A3942" />
+	<Color name="midnight-blue"					value="#121E31" />
+	<Color name="steel-blue"					value="#253E5A" />
+	<Color name="deep-sky-blue"					value="#38566F" />
+	<Color name="sky-blue"						value="#428BDD" />
+	<Color name="powder-blue"					value="#8AA6C1" />
+	
+	<!-- Environment -->
+	<Style name="default"						color="white" />
+	<Style name="caret"							color="white" />
+	<Style name="caretForeground"				color="midnight-blue" />
+	<Style name="background"					color="midnight-blue" />
+	<Style name="selectedBackground"			color="deep-sky-blue" />
+	<Style name="selectedForeground"			color="white" />
+	<Style name="searchTextBg"					color="yellow" />
+	
+	<Style name="lineMarker"					color="steel-blue" />
+	<Style name="ruler"							color="dark-grey" />
+	<Style name="whitespaces"					color="dark-grey" />
+	<Style name="invalidLines"					color="red" />
+
+	<Style name="lineNumber"					color="dark-grey" />
+	<Style name="lineNumberHighlighted"			color="orange"					weight="normal" />
+	<Style name="lineNumberBg"					color="black" />
+	
+	<Style name="iconBar"						color="black" />
+	<Style name="iconBarSeperator"				color="black" />
+
+	<Style name="foldLine"						color="gainsboro" />
+	<Style name="foldBg"						color="midnight-blue" />
+	<Style name="foldLineHighlighted"			color="white" />
+	<Style name="foldToggleMarker"				color="gainsboro" />
+	
+	<Style name="bracketHighlightRectangle"		color="white" />
+	<Style name="bracketHighlightBg"			color="steel-blue" />
+
+	<Style name="bookmarkColor1"				color="sky-blue" />
+	<Style name="bookmarkColor2"				color="midnight-blue" />
+
+	<!-- Highlighting -->
+	<Style name="comment"						color="sky-blue"				weight="italic" />
+	<Style name="altcomment"					color="sky-blue"				weight="italic" />
+	<Style name="todocomment"					color="sky-blue"				weight="italic" />
+	<Style name="commentkw"						color="sky-blue"				weight="italic" />
+	<Style name="commenttag"					color="sky-blue"				weight="italic" />
+	
+	<Style name="digit"							color="yellow" />
+	<Style name="literal"						color="lime-green" />
+	<Style name="punctuation"					color="powder-blue" />
+	
+	<Style name="kw:access"						color="orange"					weight="normal" />
+	<Style name="kw:operator"					color="orange"					weight="normal" />
+	<Style name="kw:selection"					color="orange"					weight="normal" />
+	<Style name="kw:iteration"					color="orange"					weight="normal" />
+	<Style name="kw:jump"						color="orange"					weight="normal" />
+	<Style name="kw:context"					color="orange"					weight="normal" />
+	<Style name="kw:exceptions"					color="orange"					weight="normal" />
+	<Style name="kw:literals"					color="powder-blue" />
+	<Style name="kw:modifiers"					color="orange"					weight="normal" />
+	<Style name="kw:types"						color="powder-blue"				weight="normal" />
+	<Style name="kw:namespaces"					color="orange"					weight="normal" />
+	<Style name="kw:properties"					color="orange"					weight="normal" />
+	<Style name="kw:declarations"				color="orange"					weight="normal" />
+	<Style name="kw:parameter"					color="orange"					weight="normal" />
+	<Style name="kw:operatordecl"				color="orange"					weight="normal" />
+	<Style name="kw:misc"						color="orange"					weight="normal" />
+	<Style name="kw:void"						color="orange"					weight="normal" />
+
+	<Style name="preprocessor"					color="orange"					weight="italic" />
+	<Style name="preprocessorkw"				color="orange"					weight="normal" />
+	
+	<Style name="markup"						color="orange" />
+</EditorStyle>
